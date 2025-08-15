@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="50dp">
+
+    <Row>
+        <Key android:codes="0x1811" android:keyLabel="᠑"
+            android:popupCharacters="1" android:keyEdgeFlags="left" /> <!-- 1 -->
+        <Key android:codes="0x1812" android:keyLabel="᠒"
+            android:popupCharacters="2" /> <!-- 2 -->
+        <Key android:codes="0x1813" android:keyLabel="᠓"
+            android:popupCharacters="3" /> <!-- 3 -->
+        <Key android:codes="0x1814" android:keyLabel="᠔"
+            android:popupCharacters="4" /> <!-- 4 -->
+        <Key android:codes="0x1815" android:keyLabel="᠕"
+            android:popupCharacters="5" /> <!-- 5 -->
+        <Key android:codes="0x1816" android:keyLabel="᠖"
+            android:popupCharacters="6" /> <!-- 6 -->
+        <Key android:codes="0x1817" android:keyLabel="᠗"
+            android:popupCharacters="7" /> <!-- 7 -->
+        <Key android:codes="0x1818" android:keyLabel="᠘"
+            android:popupCharacters="8" /> <!-- 8 -->
+        <Key android:codes="0x1819" android:keyLabel="᠙"
+            android:popupCharacters="9" /> <!-- 9 -->
+        <Key android:codes="0x1810" android:keyLabel="᠐"
+            android:popupCharacters="0" android:keyEdgeFlags="right" /> <!-- 0 -->
+    </Row>
+
+    <!-- Top row - typically Q to P -->
+    <Row>
+        <!-- Q (q) -> ᠴ (cha) -->
+        <Key android:codes="0x1834" android:keyLabel="ᠴ" android:keyEdgeFlags="left" />
+        <!-- ᠸ (wa) maybe put as long press to next key -->
+        <Key android:codes="0x1838" android:keyLabel="ᠸ" />
+        <!-- W (w) -> ᠦ (o) -->
+        <Key android:codes="0x1823" android:keyLabel="ᠣ" />
+        <!-- ᠧ (ee) maybe put as long press to next key -->
+        <Key android:codes="0x1827" android:keyLabel="ᠧ" />
+        <!-- E (e) -> ᠡ (e) -->
+        <Key android:codes="0x1821" android:keyLabel="ᠡ" />
+        <!-- ᠿ (zra) maybe put as long press to next key -->
+        <Key android:codes="0x183F" android:keyLabel="ᠿ" />
+        <!-- R (r) -> ᠷ (ra) -->
+        <Key android:codes="0x1837" android:keyLabel="ᠷ" />
+        <!-- T (t) -> ᠲ (ta) -->
+        <Key android:codes="0x1832" android:keyLabel="ᠲ" />
+        <!-- Y (y) -> ᠶ (ya) -->
+        <Key android:codes="0x1836" android:keyLabel="ᠶ" />
+        <!-- U (u) -> ᠤ (ue) -->
+        <Key android:codes="0x1826" android:keyLabel="ᠦ" />
+        <!-- I (i) -> ᠢ (i) -->
+        <Key android:codes="0x1822" android:keyLabel="ᠢ" />
+        <!-- O (o) -> ᠥ (oe) -->
+        <Key android:codes="0x1825" android:keyLabel="ᠥ" />
+        <!-- P (p) -> ᠫ (pa) -->
+        <Key android:codes="0x182B" android:keyLabel="ᠫ" android:keyEdgeFlags="right" />
+    </Row>
+
+    <!-- Middle row - typically A to L (shifted) -->
+    <Row>
+        <!-- A (a) -> ᠠ (a) -->
+        <Key android:codes="0x1820" android:keyLabel="ᠠ" android:keyEdgeFlags="left" />
+        <!-- S (s) -> ᠰ (sa) -->
+        <Key android:codes="0x1830" android:keyLabel="ᠰ" />
+        <!-- D (d) -> ᠳ (da) -->
+        <Key android:codes="0x1833" android:keyLabel="ᠳ" />
+        <!-- F (f) -> ᠹ (fa) -->
+        <Key android:codes="0x1839" android:keyLabel="ᠹ" />
+        <!-- G (g) -> ᠭ (ga) -->
+        <Key android:codes="0x182D" android:keyLabel="ᠭ" />
+        <!-- H (h) -> ᠬ (q/k/x) -->
+        <Key android:codes="0x182C" android:keyLabel="ᠬ" />
+        <!-- ᠾ (haa) maybe put as long press to key before -->
+        <Key android:codes="0x183E" android:keyLabel="ᠾ" />
+        <!-- J (j) -> ᠵ (ja/z) -->
+        <Key android:codes="0x1835" android:keyLabel="ᠵ" />
+        <!-- K (k) -> ᠺ (ka) -->
+        <Key android:codes="0x183A" android:keyLabel="ᠺ" />
+        <!-- ᠻ (kh) maybe put as long press to key before -->
+        <Key android:codes="0x183B" android:keyLabel="ᠻ" />
+        <!-- L (l) -> ᠯ (la) -->
+        <Key android:codes="0x182F" android:keyLabel="ᠯ" />
+        <!-- ᡀ (lha) maybe put as long press to key before -->
+        <Key android:codes="0x1840" android:keyLabel="ᡀ" android:keyEdgeFlags="right" />
+    </Row>
+
+    <!-- Bottom row - typically Z to / -->
+    <Row>
+        <!-- Shift key -->
+        <!-- <Key android:codes="-1" android:keyLabel="⇧" android:keyWidth="15%p" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left" /> -->
+        <!-- ᡁ (zhi) maybe put as long press to next key -->
+        <Key android:codes="0x1841" android:keyLabel="ᡁ" android:keyEdgeFlags="left" />
+        <!-- Z (z) -> ᠽ (za) -->
+        <Key android:codes="0x183D" android:keyLabel="ᠽ" />
+        <!-- X (x) -> ᠱ (sha) -->
+        <Key android:codes="0x1831" android:keyLabel="ᠱ" />
+        <!-- ᡂ (chi) maybe put as long press to next key -->
+        <Key android:codes="0x1842" android:keyLabel="ᡂ" />
+        <!-- C (c) -> ᠼ (tsa) -->
+        <Key android:codes="0x183C" android:keyLabel="ᠼ" />
+        <!-- V (v) -> ᠤ (u) -->
+        <Key android:codes="0x1824" android:keyLabel="ᠤ" />
+        <!-- B (b) -> ᠪ (ba) -->
+        <Key android:codes="0x182A" android:keyLabel="ᠪ" />
+        <!-- N (n) -> ᠨ (na) -->
+        <Key android:codes="0x1828" android:keyLabel="ᠨ" />
+        <!-- ᠩ (ang) maybe put as long press to key before -->
+        <Key android:codes="0x1829" android:keyLabel="ᠩ" />
+        <!-- M (m) -> ᠮ (ma) -->
+        <Key android:codes="0x182E" android:keyLabel="ᠮ" />
+        <!-- backspace (⌫) -> / -->
+        <Key android:codes="-5" android:keyLabel="⌫" android:keyWidth="15%p" android:isRepeatable="true" />
+    </Row>
+
+    <!-- Spacebar row -->
+    <Row android:rowEdgeFlags="bottom">
+        <!-- Switch to symbols/numbers. android:codes value unknown -->
+        <Key android:codes="0" android:keyLabel="\?᠑᠒᠓" android:keyWidth="10%p" android:keyEdgeFlags="left" />
+        <!-- Comma -->
+        <Key android:codes="0x1802" android:keyLabel="᠂" android:keyWidth="10%p" />
+        <!-- Spacebar -->
+        <Key android:codes="32" android:keyLabel="␣" android:keyWidth="60%p" android:isRepeatable="true" />
+        <!-- Period -->
+        <Key android:codes="0x1803" android:keyLabel="᠃" android:keyWidth="10%p" />
+        <!-- Enter key -->
+        <Key android:codes="10" android:keyLabel="⏎" android:keyWidth="20%p" android:keyEdgeFlags="right" />
+    </Row>
+
+</Keyboard>

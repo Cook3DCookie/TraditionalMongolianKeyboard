@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input-method xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define the subtype for Mongolian -->
+    <subtype
+        android:imeSubtypeLocale="mn"
+        android:imeSubtypeMode="keyboard" />
+    <!-- You can add more subtypes here if needed, e.g., for different layouts -->
+</input-method>

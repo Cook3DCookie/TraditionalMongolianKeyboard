@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the layout for the keyboard itself -->
+<android.inputmethodservice.KeyboardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:keyBackground="@drawable/key_background" /> <!-- Optional: for styling keys -->
+    <!-- android:keyTextColor="#000000"
+    android:textSize="18sp"
+    android:background="#E0E0E0" /> -->

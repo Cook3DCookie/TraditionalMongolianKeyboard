@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="50dp">
+
+    <!-- Row 1: Mongolian Digits 0-9 -->
+    <Row>
+        <Key android:codes="0x1811" android:keyLabel="᠑"
+            android:popupCharacters="1" android:keyEdgeFlags="left" /> <!-- 1 -->
+        <Key android:codes="0x1812" android:keyLabel="᠒"
+            android:popupCharacters="2" /> <!-- 2 -->
+        <Key android:codes="0x1813" android:keyLabel="᠓"
+            android:popupCharacters="3" /> <!-- 3 -->
+        <Key android:codes="0x1814" android:keyLabel="᠔"
+            android:popupCharacters="4" /> <!-- 4 -->
+        <Key android:codes="0x1815" android:keyLabel="᠕"
+            android:popupCharacters="5" /> <!-- 5 -->
+        <Key android:codes="0x1816" android:keyLabel="᠖"
+            android:popupCharacters="6" /> <!-- 6 -->
+        <Key android:codes="0x1817" android:keyLabel="᠗"
+            android:popupCharacters="7" /> <!-- 7 -->
+        <Key android:codes="0x1818" android:keyLabel="᠘"
+            android:popupCharacters="8" /> <!-- 8 -->
+        <Key android:codes="0x1819" android:keyLabel="᠙"
+            android:popupCharacters="9" /> <!-- 9 -->
+        <Key android:codes="0x1810" android:keyLabel="᠐"
+            android:popupCharacters="0" android:keyEdgeFlags="right" /> <!-- 0 -->
+    </Row>
+
+    <!-- Row 2: Punctuation and Symbols -->
+    <Row>
+        <Key android:codes="46" android:keyLabel="." android:keyEdgeFlags="left" /> <!-- Period -->
+        <Key android:codes="44" android:keyLabel="," /> <!-- Comma -->
+        <Key android:codes="45" android:keyLabel="-" /> <!-- Hyphen-Minus -->
+        <!-- Currency symbols -->
+        <Key android:codes="0x20AE" android:keyLabel="₮" /> <!-- tögrök Sign -->
+        <Key android:codes="0x00A5" android:keyLabel="¥" /> <!-- yuan Sign -->
+        <Key android:codes="35" android:keyLabel="$" /> <!-- Dollar Sign --> -->
+        <Key android:codes="8364" android:keyLabel="€" /> <!-- Euro Sign -->
+        <Key android:codes="60" android:keyLabel="&lt;" />
+        <Key android:codes="62" android:keyLabel="&gt;" />
+        <Key android:codes="61" android:keyLabel="=" />
+        <Key android:codes="95" android:keyLabel="_" android:keyEdgeFlags="right" /> <!-- Underscore -->
+    </Row>
+
+    <!-- Row 3: More Symbols -->
+    <Row>
+        <Key android:codes="40" android:keyLabel="(" android:keyEdgeFlags="left" /> <!-- Left Parenthesis -->
+        <Key android:codes="41" android:keyLabel=")" /> <!-- Right Parenthesis -->
+        <Key android:codes="91" android:keyLabel="[" /> <!-- Left Square Bracket -->
+        <Key android:codes="93" android:keyLabel="]" /> <!-- Right Square Bracket -->
+        <Key android:codes="123" android:keyLabel="{" /> <!-- Left Curly Bracket -->
+        <Key android:codes="125" android:keyLabel="}" /> <!-- Right Curly Bracket -->
+        <Key android:codes="47" android:keyLabel="/" /> <!-- Slash -->
+        <Key android:codes="92" android:keyLabel="\\" /> <!-- Backslash -->
+        <Key android:codes="124" android:keyLabel="|" /> <!-- Vertical Line -->
+        <Key android:codes="64" android:keyLabel="\@" android:keyEdgeFlags="right" /> <!-- At Sign -->
+
+    </Row>
+
+    <!-- Row 4: Additional Symbols and Switch Key -->
+    <Row>
+        <Key android:codes="0x1805" android:keyLabel="᠅" /> <!-- four dots -->
+        <Key android:codes="42" android:keyLabel="*" />
+        <Key android:codes="34" android:keyLabel="&quot;" /> <!-- Quotation Mark -->
+        <Key android:codes="39" android:keyLabel="'" /> <!-- Apostrophe -->
+        <Key android:codes="58" android:keyLabel=":" /> <!-- Colon -->
+        <Key android:codes="59" android:keyLabel=";" /> <!-- Semicolon -->
+        <Key android:codes="33" android:keyLabel="!" /> <!-- Exclamation Mark -->
+        <Key android:codes="63" android:keyLabel="\?" /> <!-- Question Mark -->
+
+
+        <!-- backspace (⌫) -> / -->
+        <Key android:codes="-5" android:keyLabel="⌫" android:keyWidth="15%p" android:isRepeatable="true" android:keyEdgeFlags="right" />
+    </Row>
+
+    <!-- Row 5: Mongolian specific punctuation -->
+    <Row android:rowEdgeFlags="bottom">
+        <!-- Switch back to letters key -->
+        <Key android:codes="-100" android:keyLabel="ᠠ ᠪ ᠰ" android:keyWidth="15%p" android:keyEdgeFlags="left" />
+        <Key android:codes="0x1802" android:keyLabel="᠂" android:keyEdgeFlags="left" /> <!-- Mongolian Comma -->
+        <Key android:codes="0x1804" android:keyLabel="᠄" /> <!-- Mongolian Colon -->
+        <!-- Spacebar -->
+        <Key android:codes="32" android:keyLabel="␣" android:keyWidth="50%p" android:isRepeatable="true" />
+        <Key android:codes="0x1803" android:keyLabel="᠃" /> <!-- Mongolian Full Stop -->
+        <!-- Add more specific Mongolian symbols here if needed -->
+        <Key android:codes="10" android:keyLabel="⏎" android:keyWidth="20%p" android:keyEdgeFlags="right" /> <!-- Enter -->
+    </Row>
+
+</Keyboard>
